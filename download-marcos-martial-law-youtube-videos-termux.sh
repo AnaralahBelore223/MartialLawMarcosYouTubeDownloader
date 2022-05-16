@@ -7,7 +7,7 @@ echo "Installing python3, ffmpeg"
 pkg install -y python3 ffmpeg
 echo "Installing yt-dlp..."
 pip3 install yt-dlp
-echo "Downloading Official Gazette YouTube channel..."
+echo "Downloading..."
 mkdir "~/storage/downloads/Martial Law Videos"
 cd "~/storage/downloads/Martial Law Videos"
 # Here we go!!
