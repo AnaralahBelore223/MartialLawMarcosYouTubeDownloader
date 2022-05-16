@@ -1,6 +1,6 @@
 #!/bin/sh
 install_deb () {
-    pkexec apt-get install -y python3-pip python3
+    pkexec sh -c 'apt-get install -y python3-pip python3; pip3 install yt-dlp'
 }
 
 create_directory_if_not_exist () {
