@@ -10,7 +10,7 @@ pkg install -y python3 ffmpeg
 echo "Updating pip3..."
 python3 -m pip install --upgrade pip
 echo "Installing yt-dlp..."
-pip3 install yt-dlp
+pip3 install --no-deps yt-dlp
 echo "Downloading..."
 mkdir "~/storage/downloads/Martial Law Videos"
 cd "~/storage/downloads/Martial Law Videos"
