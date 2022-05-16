@@ -1,10 +1,14 @@
 #!/data/data/com.termux/files/usr/bin/bash
-echo "Granting Termux access to phone storage..."
-termux-setup-storage
+if [ ! -d ~/storage ]; then
+   echo "Granting Termux access to phone storage..."
+   termux-setup-storage
+fi
 echo "Updating the package cache"
 apt update >/dev/null 2>&1
 echo "Installing python3, ffmpeg"
 pkg install -y python3 ffmpeg
+echo "Updating pip3..."
+python3 -m pip install --upgrade pip
 echo "Installing yt-dlp..."
 pip3 install yt-dlp
 echo "Downloading..."
