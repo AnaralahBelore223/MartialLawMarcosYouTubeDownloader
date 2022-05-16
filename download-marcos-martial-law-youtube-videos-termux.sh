@@ -13,8 +13,8 @@ echo "Installing yt-dlp..."
 pip3 install --no-deps yt-dlp
 echo "Downloading..."
 if [ ! -d "$HOME/storage/downloads/martial-law-videos" ]; then
-   mkdir "$HOME/storage/downloads/Martial Law Videos"
-   cd "$HOME/storage/downloads/Martial\ Law\ Videos"
+   mkdir "$HOME/storage/downloads/martial-law-videos"
+   cd "$HOME/storage/downloads/martial-law-videos"
 fi
 # Here we go!!
 yt-dlp -f 22 \
