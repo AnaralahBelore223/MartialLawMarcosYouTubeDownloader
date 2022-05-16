@@ -1,6 +1,6 @@
 #!/bin/sh
 install_deb () {
-    apt-get install -y python3-pip python3
+    pkexec apt-get install -y python3-pip python3
 }
 
 create_directory_if_not_exist () {
