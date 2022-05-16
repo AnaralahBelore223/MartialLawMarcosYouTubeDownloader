@@ -1,4 +1,4 @@
-# MarcosYouTubeDownloader
+# MartialLawMarcosYouTubeDownloader
 Bash script for downloading YouTube videos and documentaries related to Marcos Martial Law regime
 
 # Installation
